@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #idSignup:hover{
+            background-color:rgb(238, 9, 128);
+            color: white;
+        }
+        #idReset:hover{
+            background-color:rgb(238, 9, 128);
+            color: white;
+        }
+        #idCancel:hover{
+            background-color:rgb(238, 9, 128);
+            border-image-outset: calc(100);
+            outline-style:double;
+            outline-color: yellow;
+            outline-offset: 0cqmax;
+            color: white;
+        }
+        body{
+            background-color:rgba(124, 171, 171, 0.616);
+        }
+        
+    </style>
+</head>
+<head> <title>HTML Form Exercise. </title>
+     <body bgcolor="aqua" text="Black" align="center">
+<center>
+<table width="500px" cellpadding="10" cellspacing="0" >
+   <h1>SIGN UP</h1>
+   <h7>Already a member?</h7>
+   <a href="http://127.0.0.1:5500/25index.html">Log in</a>
+   
+ <tr>
+     <td align="right">First Name:</td>
+     <td><input type="text" placeholder="Enter First Name"></td>
+      <tr>
+         <td align="right">Last Name:</td> 
+        <td><input type="text" placeholder="Enter Last Name"> </td>
+     </tr>
+     <tr>
+         <td align="right">Date of Birth:</td>
+<td>
+    <select>
+    <option>Date</option>
+    <option>1</option> 
+    <option>2</option>
+    <option>3</option> 
+    <option>4</option>
+    <option>5</option> 
+    <option>6</option>
+    <option>7</option> 
+    <option>8</option>
+    <option>9</option> 
+    <option>10</option>
+    <option>11</option> 
+    <option>12</option> 
+    <option>13</option>
+    <option>14</option> 
+    <option>15</option>
+    <option>16</option> 
+    <option>17</option>
+    <option>18</option> 
+    <option>19</option>
+    <option>20</option>
+    <option>21</option> 
+    <option>22</option>
+    <option>23</option> 
+    <option>24</option>
+    <option>25</option> 
+    <option>26</option>
+    <option>27</option> 
+    <option>28</option>
+    <option>29</option> 
+    <option>30</option>
+    <option>31</option>
+   </select>
+  <select>
+<option>Month</option>
+<option>01-January</option>
+<option>02-February</option>
+<option>03-March</option>
+<option>04-April</option>
+<option>05-May</option>
+<option>06-June</option>
+<option>07-July</option>
+<option>08-August</option>
+<option>09-September</option>
+<option>10-October</option>
+<option>11-November</option>
+<option>12-December</option>
+</select> 
+<select>
+<option>Year</option>
+<option>2005</option>
+<option>2004</option>
+<option>2003</option> 
+<option>2002</option>
+<option>2001</option>
+<option>2000</option>
+<option>1999</option>
+<option>1998</option>
+<option>1997</option>
+<option>1996</option>
+<option>1995</option>
+<option>1994</option>
+<option>1993</option>
+<option>1992</option>
+<option>1991</option>
+<option>1990</option>
+<option>1989</option>
+<option>1988</option>
+<option>1987</option>
+<option>1986</option>
+<option>1985</option>
+<option>1984</option>
+<option>1983</option>
+</select>
+</td>
+</tr>
+<tr>
+<td align="right">Gender:</td>
+<td>
+    <input type="radio" name="Gender" id="idMale">Male 
+    <input type="radio" name="Gender">Female
+    <input type="radio" name="Gender">Other
+</td>
+</tr>
+<tr>
+    <td align="right">Country:</td>
+    <td><link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css"/>
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+    </head>
+    <body>
+      <input id="phone" type="tel" name="phone"/>
+    </body>
+     <script>
+      const phoneInputField = document.querySelector("#phone");
+      const phoneInput = window.intlTelInput(phoneInputField, {
+        utilsScript:
+          "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+      });
+    </script></td>
+</td>
+</tr>
+<tr>
+<td align="right">E-mail:</td>
+<td><form>
+     <input type="email" id=“abc" name="email"  placeholder="E-mail" pattern="$[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
+     </form>
+</td>
+</tr>
+<tr>
+<td align="right">Phone:</td>
+<td><input type="text" pattern="[789][0-9]{9}" placeholder="Enter Phone"></td>
+</tr>
+<tr>
+    <script>
+        function validate()
+        {
+    if(!document.getElementById("password").value==document.getElementById("confirm_password").value)alert("Passwords do no match");
+    return document.getElementById("password").value==document.getElementById("confirm_password").value;
+   return false;
+    }
+    </script>
+</head>
+<body>
+    <form onSubmit="return validate()" action="nextPage.php">
+        <tr>
+            <td align="right">Password:</td>
+            <td><input type="password" placeholder="Password"></td>
+            </tr>
+            <br>
+            <br>
+            <tr>
+            <td align="right">Confirm-Password:</td>
+            <td><input type="text" placeholder="Cofirm-password"></td>
+            </tr>
+        </form>
+<tr>
+<td></td>
+<td><input type="checkbox">I Agree to the Terms & Condition.</td>
+</tr>
+<tr>
+<td colspan="2" align="Center">
+<input id="idSignup" type="button"  value="  SignUp  " Class="SignUp">
+<input id="idReset" type="button"  value="  Reset  " Class="Reset">
+</td>
+</tr>
+<tr>
+<td colspan="2" align="Center">
+<input id="idCancel" type="button"  value="  Cancel  "  class="Cancel" >
+</td>
+</tr>
+</table>
+</center>
+</body>
+<script type="text/javascript">
+    function matchpass(){
+    var password=document.f1.password.value;
+    var confirmpassword=document.f1.password2.value;
+    if(password==confirm-password){
+    return true;
+    }
+    else{
+    alert("password must be same!");
+    return false;
+    }
+    }
+    </script>
+    <form name="f1" action="register.jsp" onsubmit="return matchpass()">
+    </form>
+</html>
