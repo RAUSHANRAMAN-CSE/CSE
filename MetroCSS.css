@@ -1,0 +1,193 @@
+.menu_bar{
+    background-color:black;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.8%;
+}
+.Heading{
+    color: rgb(8, 214, 241);
+    font-size: 28px;
+}
+.Heading span{
+    color:rgb(130, 6, 246);
+} 
+.menu_bar ul{
+    list-style: none;
+    display: flex;
+}
+.menu_bar ul li{
+    padding:  10px 30px;
+    position: relative;
+
+}
+.menu_bar ul li a{
+    color: aliceblue;
+    text-decoration: none; 
+    font-size: 20px;
+    transition: all 0.3s;
+}
+.menu_bar ul li a:hover{
+    color: rgb(4, 219, 248);
+    
+}
+
+.dropdown_menu{
+    display: none;
+}
+
+.menu_bar ul li:hover .dropdown_menu{
+    display: block;
+    position: absolute;
+    left: 0%;
+    right: 100%;
+    background-color:yellowgreen;
+}
+.menu_bar ul li:hover .dropdown_menu ul{
+    display: block;
+    margin: 10px ;
+
+} 
+.menu_bar ul li:hover .dropdown_menu ul li{
+    width: 150px;
+    padding:10px;        
+}
+
+fas {
+    float: right;
+    margin-left: 10px;
+    padding-top: 3px;
+
+}
+     #div1{
+        color:rgb(119, 119, 83);
+         margin-left: 90px;
+         margin-top: 1%;
+         padding: 30px;
+         border: 3px 
+         solid rgba(133, 110, 110, 0.338); 
+         height: 290px;
+         width: 250px;
+         background-color:rgba(194, 182, 182, 0.47); 
+          border-top-right-radius: 8%;
+          border-bottom-left-radius: 8%;
+          border-bottom-right-radius: 3%;
+          border-top-left-radius: 3%;
+         float: left;
+    }
+    
+    #div2{
+        color:rgb(119, 119, 83);
+         margin-left: 190px;
+         margin-top: 1%;
+         padding: 30px;
+         border: 3px 
+         solid rgba(116, 114, 114, 0.338); 
+         height: 335px;
+         width: 250px;
+         background-color:rgba(194, 182, 182, 0.47); 
+          border-top-right-radius: 8%;
+          border-bottom-left-radius: 8%;
+          border-bottom-right-radius: 3%;
+          border-top-left-radius: 3%;
+         float: left;
+        
+    }
+    #div3{
+        color:rgb(119, 119, 83);
+         margin-left: 190px;
+         margin-top: 1%;
+         padding: 30px;
+         border: 3px 
+         solid rgba(116, 114, 114, 0.338); 
+         height: 385px;
+         width: 250px;
+         background-color:rgba(194, 182, 182, 0.47); 
+          border-top-right-radius: 8%;
+          border-bottom-left-radius: 8%;
+          border-bottom-right-radius: 3%;
+          border-top-left-radius: 3%;
+         float: left;
+        }
+        #div1:hover{
+            background-color: rgb(4, 219, 248);
+            color: black;
+        }
+        #div2:hover{
+            background-color: rgb(4, 219, 248);
+            color: black;
+        }
+        #div3:hover{
+            background-color: rgb(4, 219, 248);
+            color: black;
+        }
+        
+body{
+    background-color:aquamarine
+}
+#divP{
+    color:rgb(119, 119, 83);
+    margin-left: 0px;
+    margin-top: 1%;
+    padding: 30px;
+    border: 2px;
+    height: 25px;
+    width: 25px;
+    background-color:rgba(194, 182, 182, 0.47); 
+     border-top-right-radius: 8%;
+     border-bottom-left-radius: 8%;
+     border-bottom-right-radius: 3%;
+     border-top-left-radius: 3%;
+     float: left;
+
+}
+#divPP{
+    color:rgb(119, 119, 83);
+    margin-left: 90px;
+    margin-top: 1%;
+    padding: 30px;
+    border: 2px;
+    height: 25px;
+    width: 25px;
+    background-color:rgba(194, 182, 182, 0.47); 
+     border-top-right-radius: 8%;
+     border-bottom-left-radius: 8%;
+     border-bottom-right-radius: 3%;
+     border-top-left-radius: 3%;
+     float: left;
+
+}
+#divGP{
+    color:rgb(119, 119, 83);
+    margin-left: 90px;
+    margin-top: 1%;
+    padding: 30px;
+    border: 2px;
+    height: 25px;
+    width: 25px;
+    background-color:rgba(194, 182, 182, 0.47); 
+     border-top-right-radius: 8%;
+     border-bottom-left-radius: 8%;
+     border-bottom-right-radius: 3%;
+     border-top-left-radius: 3%;
+     float: left;
+
+}
+#divP:hover{
+    background-color:red;
+}
+#divPP:hover{
+    background-color: rgb(70, 12, 111);
+}
+#divGP:hover{
+    background-color: rgba(237, 185, 15, 0.762);
+}  
+
+#img1:hover{
+    text-orientation: sideways-right;
+   
+
+}
+  
